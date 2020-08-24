@@ -365,6 +365,7 @@ figcaption {
         padding-top: 3%;
     }
     .text-hello {
+        display: block;
         margin-right: 25%;
     }
     .mobile-hello {
