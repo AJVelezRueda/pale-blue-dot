@@ -148,8 +148,11 @@ section {
 }
 
 .text-hello {
-    margin-right: 39%;
-    margin-top: 20px;
+    display: none;
+}
+
+.mobile-text {
+    margin-top: 16px;
 }
 
 .button {
@@ -363,6 +366,9 @@ figcaption {
     }
     .text-hello {
         margin-right: 25%;
+    }
+    .mobile-hello {
+        display: none;
     }
     .episodios {
         height: 47vh;
