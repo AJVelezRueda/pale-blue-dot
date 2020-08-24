@@ -20,6 +20,7 @@ h4,
 h5,
 h6 {
     font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: normal;
 }
 
 h1 {
@@ -144,7 +145,7 @@ section {
 }
 
 .hello {
-    height: 50vh;
+    height: 55vh;
     padding-top: 7%;
 }
 
@@ -210,7 +211,7 @@ section {
 
 .entrevistas {
     height: 78vh;
-    padding-top: 3%;
+    padding-top: 1%;
 }
 
 .novedades {
