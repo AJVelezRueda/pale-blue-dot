@@ -60,13 +60,11 @@ nav {
 }
 
 .logo {
-    height: inherit;
     padding: 0 5%;
 }
 
 .menu-ul {
     line-height: 100%;
-    margin: inherit;
     display: grid;
     align-content: stretch;
 }
@@ -94,7 +92,7 @@ a:hover {
 
 .logo {
     position: relative;
-    vertical-align: middle;
+    margin-top: 0;
 }
 
 #toggle {
@@ -195,7 +193,7 @@ section {
 }
 
 .diagonal-izq {
-    clip-path: polygon(0 0, 100% 0%, 100% 53%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0%, 100% 65%, 0% 100%);
 }
 
 .blue-background {
@@ -311,7 +309,7 @@ figcaption {
     justify-content: center;
 }
 
-@media screen and (min-width: 670px) {
+@media screen and (min-width: 720px) {
     #toggle:checked~.menu i::before {
         content: none;
     }
@@ -328,7 +326,6 @@ figcaption {
     .ham-menu {
         height: 100%;
         font-size: larger;
-        width: inherit;
     }
     .main-menu {
         background-color: transparent;
@@ -338,12 +335,12 @@ figcaption {
         flex-direction: row;
         justify-content: end;
         margin-top: 0;
+        position: relative;
     }
     .menu-ul {
         line-height: 100%;
-        margin: inherit;
         display: inline-block;
-        margin-right: 4%;
+        position: relative;
     }
     ul li {
         position: relative;
@@ -368,20 +365,16 @@ figcaption {
         margin-right: 25%;
     }
     .episodios {
-        background-color: #0000A3;
-        color: white;
-        height: 45vh;
-        padding-top: 15vh;
+        height: 47vh;
+        padding-top: 17vh;
     }
     .podcast {
         display: flex;
         flex-flow: row;
     }
     .entrevistas {
-        background-color: #0000A3;
-        color: white;
         height: 50vh;
-        padding-top: 2vh;
+        padding-top: 4vh;
     }
     .origen {
         display: flex;
@@ -392,7 +385,7 @@ figcaption {
     }
     .phone {
         margin-top: -14%;
-        width: 90vh;
+        width: 50vh;
         z-index: 23;
     }
     .galeria {
